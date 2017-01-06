@@ -7,6 +7,7 @@
 <title>ユーザーページ</title>
 </head>
 <body>
-${loginname}でログインしました。
+<p>${person.name}さんこんにちわ。</p>
+<p>貴方のE-mailアドレスは${person.email}です。</p>
 </body>
 </html>

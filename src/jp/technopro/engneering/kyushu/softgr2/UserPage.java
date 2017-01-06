@@ -1,6 +1,7 @@
 package jp.technopro.engneering.kyushu.softgr2;
 
 import java.io.IOException;
+
 import java.sql.SQLException;
 
 import javax.naming.NamingException;
@@ -16,7 +17,7 @@ import jp.technopro.engneering.kyushu.softgr2.bean.PersonBean;
 import jp.technopro.engneering.kyushu.softgr2.dao.PersonDAO;
 
 @WebServlet("/Validation")
-public class Validation extends HttpServlet {
+public class UserPage extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -24,8 +25,6 @@ public class Validation extends HttpServlet {
 		String resultPage = "/WEB-INF/jsp/error.jsp";
 		String name = request.getParameter("name");
 		String password = request.getParameter("password");
-
-		System.out.println(name);
 
         try {
             PersonDAO dao = new PersonDAO();
@@ -36,6 +35,7 @@ public class Validation extends HttpServlet {
             } else if (password.equals(person.getPassword())) {
             	HttpSession session = request.getSession(true);
             	session.setAttribute("loginname", name);
+            	session.setAttribute("person", person);
                 resultPage = "/WEB-INF/jsp/userPage.jsp";
             } else {
             	request.setAttribute("errorMessage", "パスワードが違います");
@@ -47,9 +47,12 @@ public class Validation extends HttpServlet {
         } catch (SQLException e) {
             request.setAttribute("errorMessage", e.getMessage());
         }
-
-        RequestDispatcher dispatcher = request.getRequestDispatcher(resultPage);
-        dispatcher.forward(request, response);
+        
+        if (request.getAttribute("errorMessage") == null) {
+	        RequestDispatcher dispatcher = request.getRequestDispatcher(resultPage);
+	        dispatcher.forward(request, response);
+        } else {
+        	
+        }
 	}
-
 }

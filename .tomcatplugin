@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir></rootDir>
+    <workDir>/work</workDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo></extraInfo>
+    <mavenClasspath>false</mavenClasspath>
+    <webPath></webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/loginform/build/classes</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/annotations-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ant.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ha.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-storeconfig.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-tribes.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/ecj-4.5.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/el-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper-el.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jaspic-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jsp-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-coyote.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-dbcp.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-es.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-fr.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-ja.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jdbc.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jni.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util-scan.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-websocket.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/websocket-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/charsets.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/access-bridge.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/cldrdata.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/dnsns.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/jaccess.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/jfxrt.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/localedata.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/nashorn.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/sunec.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/sunjce_provider.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/sunmscapi.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/sunpkcs11.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/ext/zipfs.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/jce.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/jfr.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/jsse.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/resources.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jre1.8.0_111/lib/rt.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/PostgreSQL/9.6/postgresql-9.4.1212.jar</webClassPathEntry>
+        <webClassPathEntry>org.eclipse.jst.j2ee.internal.module.container</webClassPathEntry>
+        <webClassPathEntry>org.eclipse.jst.j2ee.internal.web.container</webClassPathEntry>
+        <webClassPathEntry>org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>

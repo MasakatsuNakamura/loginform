@@ -14,14 +14,14 @@ import javax.sql.DataSource;
 import jp.technopro.engneering.kyushu.softgr2.bean.PersonBean;
 
 public class PersonDAO {
-    private static final String SELECT = "select * from list";
+    private static final String SELECT = "select * from person";
     private static final String CONDITIONAL_SELECT
-                       = "select * from list where id like ? and name like ? and email like ?";
-    private static final String NAME_SELECT = "select * from list where name=?";
-    private static final String INSERT = "insert into item values(?, ?, ?, ?)";
+                       = "select * from person where id like ? and name like ? and email like ?";
+    private static final String NAME_SELECT = "select * from person where name=?";
+    private static final String INSERT = "insert into person values(?, ?, ?, ?)";
     private static final String UPDATE
-                                         = "update list set id=?, name=?, password=? email=? where id=?";
-    private static final String DELETE = "delete from list where id=?";
+                                         = "update person set id=?, name=?, password=? email=? where id=?";
+    private static final String DELETE = "delete from person where id=?";
 
     private DataSource source;
 
@@ -103,7 +103,7 @@ public class PersonDAO {
             PreparedStatement statement
                                   = connection.prepareStatement(NAME_SELECT);
             statement.setString(1, name);
-            ResultSet result = statement.executeQuery();
+			ResultSet result = statement.executeQuery();
 
             if (result.next()) {
             	person.setId(result.getString("id"));
